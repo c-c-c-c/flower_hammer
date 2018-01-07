@@ -17,4 +17,7 @@ $(function(){
         target.style.left = ev.deltaX + 'px'
       })
     })
+
+		$('img').attr('onmousedown', 'return false');
+		$('img').attr('onselectstart', 'return false');
 });
