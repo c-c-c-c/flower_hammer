@@ -8,7 +8,7 @@ $(function(){
     });
 
     // Drag and Drop
-    $('.botanical_hidden').each(function (idx, $el) {
+    $('.botanical').each(function (idx, $el) {
       var hammertime = new Hammer($el)
       hammertime.on('pan', function (ev) {
         ev.preventDefault()
